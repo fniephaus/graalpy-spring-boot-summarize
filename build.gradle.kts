@@ -85,6 +85,7 @@ tasks.bootRun {
     jvmArgs = listOf(
         "--enable-native-access=ALL-UNNAMED",
         "--sun-misc-unsafe-memory-access=allow",
+        "-Xss16M",
     )
 }
 
